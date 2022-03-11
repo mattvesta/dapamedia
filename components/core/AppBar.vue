@@ -43,6 +43,19 @@
           </v-btn>
         </router-link>
         <router-link
+          to="/Podcasts"
+          class="v-btn"
+        >
+          <v-btn
+            class="hidden-sm-and-down"
+            text
+            value="Podcasts"
+            name="Podcasts"
+          >
+            Podcasts
+          </v-btn>
+        </router-link>
+        <router-link
           to="/League"
           class="v-btn"
         >
@@ -52,7 +65,33 @@
             value="League"
             name="League"
           >
-            League
+            Fantasy Football
+          </v-btn>
+        </router-link>
+        <router-link
+          to="/News"
+          class="v-btn"
+        >
+          <v-btn
+            class="hidden-sm-and-down"
+            text
+            value="League"
+            name="League"
+          >
+            Gaming
+          </v-btn>
+        </router-link>
+        <router-link
+          to="/About"
+          class="v-btn"
+        >
+          <v-btn
+            class="hidden-sm-and-down"
+            text
+            value="League"
+            name="League"
+          >
+            About
           </v-btn>
         </router-link>
         <v-spacer />
