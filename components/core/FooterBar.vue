@@ -35,9 +35,10 @@
 </template>
 
 <script>
-
+// import { ref, onMounted, defineComponent } from 'vue'
 // import { butter } from '@/plugins/buttercms'
-// export default ({
+
+// export default defineComponent({
 //   name: 'CoreFooter',
 //   setup () {
 //     const params = {

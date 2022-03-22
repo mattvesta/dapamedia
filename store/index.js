@@ -3,8 +3,8 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
-export default new Vuex.Store({
-  state: {
+export default () => new Vuex.Store({
+  state: () => ({
     articles: '',
     drawer: false,
     items: [
@@ -17,7 +17,7 @@ export default new Vuex.Store({
         href: '#about'
       }
     ]
-  },
+  }),
   getters: {
     categories: (state) => {
       const categories = []
